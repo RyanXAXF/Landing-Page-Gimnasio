@@ -17,7 +17,7 @@ main{
 /*Banner*/
 
 .banner{
-    background-image: url("../css/recursos/primerFoto.jpg");
+    background-image: url(../css/recursos/primerFoto.jpg);
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
