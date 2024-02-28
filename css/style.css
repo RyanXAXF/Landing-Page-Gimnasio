@@ -147,7 +147,7 @@ main{
     height: 500px;
 }
 .pres-dos{
-    background-image: url(.recursos/img4.webp);
+    background-image: url(./recursos/img4.webp);
     background-repeat: 
     no-repeat;
     background-position: center;
