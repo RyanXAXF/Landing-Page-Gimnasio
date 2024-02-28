@@ -17,7 +17,7 @@ main{
 /*Banner*/
 
 .banner{
-    background-image: url(/css/recursos/primerFoto.jpg);
+    background-image: url(../css/recursos/primerFoto.jpg);
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
@@ -103,7 +103,7 @@ main{
 
 }
 .img-b{
-    background-image: url(/css/recursos/img2.webp);
+    background-image: url(../css/recursos/img1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 25%;
