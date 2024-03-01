@@ -103,7 +103,7 @@ main{
 
 }
 .img-b{
-    background-image: url("https://image.canva.com/AvdNwVCn9beR6O0L62cxjw%3D%3D/_ITwC28fBBzi5hJtBHZS-Q%3D%3D.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH25PN7VSL%2F20240301%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240301T073348Z&X-Amz-Expires=38105&X-Amz-Signature=f54d540faa925f8b107b96e31643684e10587516e73c9b1cab8d9475060558e9&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2001%20Mar%202024%2018%3A08%3A53%20GMT");
+    background-image: url("./recursos/img2.webp");
     background-repeat: no-repeat;
     background-size: cover;
     height: 25%;
@@ -139,7 +139,7 @@ main{
 }
 
 .pres-uno{
-    background-image: url("https://image.canva.com/LoKsr6nVRBJ22nxPPGSmMA%3D%3D/vM66BGzyQ2Hg7_YcoEH6qg%3D%3D.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH25PN7VSL%2F20240301%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240301T141605Z&X-Amz-Expires=12713&X-Amz-Signature=6cf401677159be27fc09aa167c606cf3a62268f8cc3dd0470c02be37448e4f2a&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2001%20Mar%202024%2017%3A47%3A58%20GMT");
+    background-image: url("./recursos/img3.webp");
     background-repeat: 
     no-repeat;
     background-position: center;
