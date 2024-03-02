@@ -124,6 +124,7 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 20px;
 }
 .queOfrecemos p{
     margin-top: 15px;
@@ -145,6 +146,7 @@ main{
     background-position: center;
     width: 90%;
     height: 500px;
+    margin-left: 20px;
 }
 .pres-dos{
     background-image: url("./recursos/img4.webp");
@@ -153,6 +155,7 @@ main{
     background-position: center;
     width: 90%;
     height: 500px;
+    margin-left: 20px;
 }
 .pres-tres{
     background-image: url("./recursos/img5.webp");
@@ -161,6 +164,7 @@ main{
     background-position: center;
     width: 90%;
     height: 500px;
+    margin-left: 20px;
 }
 .title--presentaciones{
     font-size: 20px;
