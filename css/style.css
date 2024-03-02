@@ -27,10 +27,11 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
 }
 .logo{
     height: 50px;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 20px;
     position: absolute;
     top: 0px;
@@ -123,7 +124,6 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0px 20px;
 }
 .queOfrecemos p{
     margin-top: 15px;
@@ -176,7 +176,6 @@ main{
 .antesDespues{
     display: flex;
     flex-direction: column;
-    margin: 0px 20px;
     align-items: center;
     justify-content: center;
 
@@ -267,4 +266,308 @@ main{
     font-weight: 400;
     font-size: 15px;
 
+}
+
+
+@media(min-width: 1280px){
+    main{
+        background-color: rgb(21, 20, 21);
+        height: 100%;
+        width: 100vw;
+    }
+    
+    /*Banner*/
+    
+    .banner{
+        background-image: url("https://image.canva.com/wB7JpbXsh9ondNTM99gaLQ%3D%3D/U2aah_4wVEs2W6GdZpTZew%3D%3D.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH25PN7VSL%2F20240229%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240229T232142Z&X-Amz-Expires=64346&X-Amz-Signature=be9ae0525ff15d23202d711c0b7d56f287f4a6dbea20797ed1197748680dda9c&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2001%20Mar%202024%2017%3A14%3A08%20GMT");
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo{
+        height: 50px;
+        margin-top: 70px;
+        margin-left: 50px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        display: flex;
+        align-items: center;
+        
+    
+    }
+    .logo-img{
+        width: 75px;
+        height: 75px;
+        border-radius: 15px;
+    }
+    .title--logo{
+        color: white;
+        margin-left: 10px;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .content-center{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
+    }
+    .title{
+        color: white;
+        font-size: 100px;
+        font-weight: bold;
+        font-style: italic;
+    
+    }
+    .btn{
+        background-color: rgb(249, 238, 34);
+        border: none;
+        width: 40%;
+        font-size: 22px;
+        font-weight: 550;
+        padding: 15px 20px;
+        margin-top: 30px;
+    }
+    
+    /*Sobre Nosotros*/
+    
+    .sobreNosotros{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100%;
+        margin: 20px 0px;
+
+    }
+
+    .container-info{
+        height: 100%;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 300px;
+    }
+    
+    .title--yellow{
+        color: rgb(249, 238, 34);
+        font-size: 53px;
+        font-weight: bold;
+        font-style: italic;
+        margin-bottom: 25px;
+    }
+    .subtitle{
+        color: white;
+        font-size: 24px;
+    }
+    .container-img{
+        height: 100%;
+        width: 50%;
+        margin-top: 200px;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .img-a{
+        width: 80%;    
+        height: 50%;
+        margin-top: 45px;
+        margin-left: 40px;
+    }
+
+    .img-b{
+        background-image: url("./recursos/img2.webp");
+        background-size: cover;
+        height: 400px;
+        width: 500px;
+        clip-path: inset(0px 122px);
+        margin-top: 150px;
+        margin-left: 400px;
+    }
+    
+    /*Que Ofrecemos*/
+    
+    .queOfrecemos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100%;
+
+    }
+    .container-presentaciones{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 90%;
+        gap: 30px;
+      
+    }
+    .queOfrecemos p{
+        margin-top: 15px;
+    }
+    .presentaciones{
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .pres-uno{
+        background-image: url("./recursos/img3.webp");
+        background-repeat: 
+        no-repeat;
+        background-position: center;
+        width: 30%;
+        height: 500px;
+    }
+    .pres-dos{
+        background-image: url("./recursos/img4.webp");
+        background-repeat: 
+        no-repeat;
+        background-position: center;
+        width: 30%;
+        height: 500px;
+    }
+    .pres-tres{
+        background-image: url("./recursos/img5.webp");
+        background-repeat: 
+        no-repeat;
+        background-position: center;
+        width: 30%;
+        height: 500px;
+    }
+    .title--presentaciones{
+        font-size: 28px;
+        font-weight: bold;
+        margin: 10px 0px;
+        text-align: center;
+        font-style: italic;
+    
+    }
+    
+    /*Antes y Después*/
+    
+    .antesDespues{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100%;
+    }
+    .cards{
+        display: flex;
+        width: 90%;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+    .card-img{
+        background-image: url("./recursos/img6.webp");
+        background-position: center;
+        width: 100%;
+        height: 300px;
+    }
+    .card-img2{
+        background-image: url("./recursos/img7.webp");
+        background-position: center;
+        width: 100%;
+        height: 300px;
+    }
+    .card-img3{
+        background-image: url("./recursos/img8.jpg");
+        background-position: center;
+        width: 100%;
+        height: 300px;
+    }
+    .card-p{
+        background-color: rgb(249, 238, 34);
+        padding: 20px;
+        width: 100%;
+        height: auto;
+    }
+    
+    .subtitle--card{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .name{
+        font-size: 22px;
+        margin-top: 10px;
+        font-style: italic;
+    }
+    
+    /*Contacto*/
+    
+    .contacto{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100%;
+    }
+    
+    
+    .contacto-banner{
+        width: 100%;
+        height: 70%;
+        background-image: url("./recursos/img9.webp");
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contacto-banner h3{
+        max-width: 80%;
+        color: rgb(249, 238, 34);
+        margin-left: 40px;
+        font-size: 55px;
+        width: 30%;
+    }
+    
+    .contacto-info{
+        background-color: rgb(249, 238, 34);
+        height: 30%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 20px 0px;
+        
+    
+    }
+    .contacto-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .title--info{
+        font-size: 30px;
+        font-weight: bold;
+        margin: 5px 0px;
+        font-style: italic;
+    }
+    .subtitle--contacto{
+        color: black;
+        font-weight: 400;
+        font-size: 20px;
+    
+    }
 }
